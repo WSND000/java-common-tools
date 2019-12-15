@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb57a40b-0d9d-417f-b9e8-493d46e5f4c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/CheckUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/CheckUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCheck/TestCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCheck/TestCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zeroten/common/util/CheckUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zeroten/common/util/CheckUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testCheck/TestCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCheck/TestCheck.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,15 +17,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
+            <state relative-caret-position="224">
               <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
             </state>
           </provider>
@@ -32,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/util/CheckUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="134">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -41,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testCheck/TestCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="10" column="82" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="82" />
+            <state relative-caret-position="289">
+              <caret line="43" column="60" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,10 +86,10 @@
     <option name="jreName" value="10" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="238" />
-    <option name="y" value="18" />
+    <option name="x" value="237" />
+    <option name="y" value="17" />
     <option name="width" value="1520" />
-    <option name="height" value="1103" />
+    <option name="height" value="1104" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -148,7 +149,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestCheck.testEquals2">
+    <configuration name="TestCheck.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_70_03demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCheck.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCheck" />
+      <option name="MAIN_CLASS_NAME" value="testCheck.TestCheck" />
+      <option name="METHOD_NAME" value="testEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCheck.testEquals2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_70_03demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCheck.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCheck" />
+      <option name="MAIN_CLASS_NAME" value="testCheck.TestCheck" />
+      <option name="METHOD_NAME" value="testEquals2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestCheck.testIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_70_03demo" />
       <extension name="coverage">
@@ -167,6 +200,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestCheck.testEquals2" />
+        <item itemvalue="JUnit.TestCheck.testEquals" />
         <item itemvalue="JUnit.TestCheck.testIsEmpty" />
       </list>
     </recent_temporary>
@@ -181,57 +216,78 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576408128987</updated>
-      <workItem from="1576408131911" duration="1285000" />
+      <workItem from="1576408131911" duration="5233000" />
+      <workItem from="1576415805709" duration="912000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCheck_testIsEmpty - 2019.12.15 at 19h 24m 50s.xml">
+    <history-entry file="TestCheck_testIsEmpty - 2019.12.15 at 20h 14m 12s.xml">
       <configuration name="TestCheck.testIsEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCheck_testIsEmpty - 2019.12.15 at 19h 27m 20s.xml">
+    <history-entry file="TestCheck_testIsEmpty - 2019.12.15 at 20h 18m 43s.xml">
       <configuration name="TestCheck.testIsEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCheck_testIsEmpty - 2019.12.15 at 19h 27m 32s.xml">
-      <configuration name="TestCheck.testIsEmpty" configurationId="JUnit" />
+    <history-entry file="TestCheck_testEquals - 2019.12.15 at 20h 22m 20s.xml">
+      <configuration name="TestCheck.testEquals" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCheck_testEquals - 2019.12.15 at 20h 25m 13s.xml">
+      <configuration name="TestCheck.testEquals" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCheck_testEquals2 - 2019.12.15 at 20h 32m 40s.xml">
+      <configuration name="TestCheck.testEquals2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCheck_testEquals2 - 2019.12.15 at 20h 32m 49s.xml">
+      <configuration name="TestCheck.testEquals2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCheck_testEquals2 - 2019.12.15 at 20h 32m 58s.xml">
+      <configuration name="TestCheck.testEquals2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCheck_testEquals2 - 2019.12.15 at 20h 34m 07s.xml">
+      <configuration name="TestCheck.testEquals2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCheck_testEquals2 - 2019.12.15 at 21h 18m 54s.xml">
+      <configuration name="TestCheck.testEquals2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCheck_testEquals2 - 2019.12.15 at 21h 19m 32s.xml">
+      <configuration name="TestCheck.testEquals2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1285000" />
+    <option name="totallyTimeSpent" value="6145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19395973" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19664429" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.3293944" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3308715" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293944" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3293944" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3308715" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3293944" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,22 +296,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
+        <state relative-caret-position="224">
           <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/util/CheckUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="134">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testCheck/TestCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="82" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="82" />
+        <state relative-caret-position="289">
+          <caret line="43" column="60" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
